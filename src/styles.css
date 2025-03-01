@@ -1,1 +1,20 @@
 /* You can add global styles to this file, and also import other style files */
+:root{
+    --bg-fondoPagina: rgba(148, 191, 200, 0.612);
+    --bg-fondoBlanco: rgb(255, 255, 255);
+}
+
+.bg-home {
+    background-image: url('/assets/sena-sogamoso-fachada.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.bg-fondoPagina{
+    background-color: var(--bg-fondoPagina);
+}
+
+.fondoBlanco{
+    background-color: var(--bg-fondoBlanco);
+}

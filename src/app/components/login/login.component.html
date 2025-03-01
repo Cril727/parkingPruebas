@@ -1,33 +1,37 @@
-<div class="container">
-    <div class="p-5 mb-4 bg-light rounded-3 text-center">
-
-        <div class="container">
-            <div class="p-5 mb-4 bg-light rounded-3 text-center">
-                <div class="border rounded shadow p-4" style="max-width: 400px; margin: auto;">
-                    <div class="container-fluid py-3">
-                        <h1 class="display-6 fw-bold">Login</h1>
-                    </div>
-                    <div class="container">
-                        <div class="mb-3">
-                            <label for="email" class="form-label">Correo Electrónico</label>
-                            <input type="email" class="form-control" id="email" placeholder="example@mail.com">
+<div class="bg-home">
+    <div class="col-md-12">
+        <div class="p-5 mb-4 bg-fondoPagina text-center">
+    
+            <div class="container">
+                <div class="p-5 mb-4 rounded-3 text-center">
+                    <div class="border rounded shadow p-4 fondoBlanco" style="max-width: 400px; margin: auto;">
+                        <div class="container-fluid py-3">
+                            <h1 class="display-6 fw-bold">Login</h1>
                         </div>
-
-                        <div class="mb-3">
-                            <label for="password" class="form-label">Contraseña</label>
-                            <input type="password" class="form-control" id="password" placeholder="********">
-                        </div>
-
-                        <div class="d-grid mt-4">
-                            <button type="button" class="btn btn-primary">
-                                Iniciar sesión
-                            </button>
-                            <a [routerLink]="['/registro']" routerLinkActive="router-link-active" >No tienes cuenta? Registrate aqui</a>
+                        <div class="container">
+                            <div class="mb-3">
+                                <label for="email" class="form-label">Correo Electrónico</label>
+                                <input type="email" class="form-control" id="email" placeholder="example@mail.com">
+                            </div>
+    
+                            <div class="mb-3">
+                                <label for="password" class="form-label">Contraseña</label>
+                                <input type="password" class="form-control" id="password" placeholder="********">
+                            </div>
+    
+                            <div class="d-grid mt-4">
+                                <button type="button" class="btn btn-primary">
+                                    Iniciar sesión
+                                </button>
+                                <a [routerLink]="['/registro']" routerLinkActive="router-link-active">No tienes cuenta?
+                                    Registrate aqui</a>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
+    
+    
         </div>
-
-
     </div>
+</div>
