@@ -1,0 +1,36 @@
+<div class="container">
+
+    <div class="p-5 mb-4 bg-light rounded-3" >
+
+        <div class="container d-flex justify-content-center align-items-center vh-100">
+            <div class="col-md-6 p-4 border rounded shadow">
+                <h2 class="text-center mb-4">Registro</h2>
+                
+                <form>
+                    <div class="mb-3">
+                        <label for="nombre" class="form-label">Nombre</label>
+                        <input type="text" class="form-control" id="nombre" placeholder="Tu nombre">
+                    </div>
+        
+                    <div class="mb-3">
+                        <label for="email" class="form-label">Correo Electrónico</label>
+                        <input type="email" class="form-control" id="email" placeholder="example@mail.com">
+                    </div>
+        
+                    <div class="mb-3">
+                        <label for="password" class="form-label">Contraseña</label>
+                        <input type="password" class="form-control" id="password" placeholder="********">
+                    </div>
+        
+                    <div class="mb-3">
+                        <label for="confirm-password" class="form-label">Confirmar Contraseña</label>
+                        <input type="password" class="form-control" id="confirm-password" placeholder="********">
+                    </div>
+        
+                    <button type="submit" class="btn btn-primary d-flex justify-content-center align-items-center">Registrarse</button>
+                    <a [routerLink]="['/login']" routerLinkActive="router-link-active" >Ya tienes cuenta? inicia sesion aqui</a>
+                </form>
+            </div>
+        </div>
+
+    </div>

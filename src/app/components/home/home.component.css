@@ -1,0 +1,29 @@
+.overlay {
+    background: rgba(181, 203, 189, 0.6); /* Oscurece un poco el fondo para mejorar visibilidad */
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.content-box {
+    background: rgba(243, 248, 248, 0.85); /* Fondo con transparencia */
+    border-radius: 15px;
+    padding: 40px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    animation: fadeIn 1.2s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(-20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+.btn-custom {
+    font-size: 1.2rem;
+    padding: 12px 30px;
+    border-radius: 8px;
+}
