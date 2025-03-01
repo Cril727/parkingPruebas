@@ -1,3 +1,11 @@
+.bg-home {
+    background-image: url('/assets/sena-sogamoso-fachada.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
 .overlay {
     background: rgba(181, 203, 189, 0.6); /* Oscurece un poco el fondo para mejorar visibilidad */
     min-height: 100vh;
